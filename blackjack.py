@@ -131,6 +131,7 @@ def simulate(rounds, verbosity):
             probability[key][2] = outcome[key][2] / outcome[key][3]
 
     print(probability)
+    return probability
 
 simulate(10000,0)
 
