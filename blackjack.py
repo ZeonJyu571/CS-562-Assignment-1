@@ -6,7 +6,7 @@ import random
 # Define the initial settings
 player = 0
 dealer = 0
-outcome = {_: [0,0,0,0] for _ in range(14,22)} # win/push/loss/player points of the round
+outcome = {_: [0,0,0,0] for _ in range(14,22)} # win/push/loss/times of strategy tested
 
 # Define the pool
 decks = ["a","b","c","d","e","f"]
